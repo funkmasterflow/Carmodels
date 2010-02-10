@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+ <head>
+   <title>Carmodels</title>
+   <link rel="contents" charset="UTF-8" />
+   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css" />
+   <link rel="stylesheet" type="text/css" href="carmodels.css" />
+ </head>
+ <body>
+
+ <div id="content">
+	
+<?php
+if(isset($_GET['id'])){
+    include 'flickr_details.php';
+	
+	echo '<div class="wiki_details">';
+    include 'wiki_details.php';    
+    echo '</div>';
+	
+	echo '<a class="backlink" href="index.html">&laquo; Zur&uuml;ck zur Startseite</a>';
+	
+} else {
+    include 'flickr_thumbnails.php';	
+}
+
+
+?>
+ </div>
+ </body>
+</html>

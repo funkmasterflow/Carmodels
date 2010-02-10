@@ -1,0 +1,21 @@
+
+html            {background-color: #efefef;}
+
+h1              {font-size: 15px; font-weight: bold;}
+a:link,
+a:visited       {color: #b80000;}
+
+#content,
+#footer         { font-family: Arial, Helvetica, sans-serif; font-size: 11px; padding: 20px; line-height: 15px;}
+
+#content ul         { width: 900px; }
+#content ul li      { display: inline; float: left; width: 300px; }
+#content ul li a    { float: left; display: block; }
+#content ul li p    { padding-left: 90px; display: block; }
+
+
+.details        {float: left;}
+.wiki_details   {float: left; width: 400px; margin-left: 20px; font-size: 12px;}
+.wiki_link      {display: inline-block; margin-top: 10px;}
+
+.backlink       { float: left; clear: left; margin-top: 20px;}
